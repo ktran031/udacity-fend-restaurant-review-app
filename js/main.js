@@ -102,7 +102,7 @@ initMap = () => {
   }).addTo(newMap);
 
   updateRestaurants();
-  document.getElementById('map').tabIndex = '-1';
+  // document.getElementById('map').tabIndex = '-1';
 };
 
 /**

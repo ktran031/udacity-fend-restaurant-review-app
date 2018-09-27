@@ -23,14 +23,14 @@
   <header>
 
     <nav class="wrapper">
-      <div class="logo" role="banner" tabindex="0">
-        <a href="./">
+      <div class="logo" role="banner">
+        <a tabindex="0" href="./">
           <h1>Restaurant Reviews</h1>
         </a>
       </div>
 
 
-      <div class="filter-options" tabindex="0">
+      <div class="filter-options">
         <h2>Filter by:</h2>
 
         <select aria-label="Selected neighborhood" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()"
@@ -48,12 +48,12 @@
 
   <main class="main-content">
 
-    <section id="map-container" tabindex="-1">
+    <section id="map-container">
       <div id="map" aria-label="Locations" role="application"></div>
     </section>
 
     <section>
-      <ul id="restaurants-list" tabindex="0" aria-label="Restaurant list"></ul>
+      <ul id="restaurants-list" aria-label="Restaurant list"></ul>
     </section>
 
   </main>
@@ -65,9 +65,9 @@
   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap"></script> -->
 
 
-  <footer id="footer" tabindex="0">
+  <footer id="footer">
     <div class="wrapper">
-      Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+      Copyright (c) 2018 <a tabindex="0" href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
     </div>
   </footer>
 
